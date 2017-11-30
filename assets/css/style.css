@@ -5,7 +5,7 @@ body {
   background-size: cover repeat;
 }
 .wrapper {
-  max-width: 960px;
+  /*max-width: 960px;*/
 
 }
 *{
@@ -195,6 +195,21 @@ li a:active {
   border-width: 8px;
 }
 
+@media screen and (max-width: 1200px) {
+  .left_content {
+    margin-left: 25px;
+    width: 700px;
+    /*height: 700px;*/
+  }
+  .right_content {
+    margin-right: 25px;
+    width: 325px;
+  }
+  .right_content i {
+    margin-left: 15px;
+  }
+}
+
 @media screen and (max-width: 980px) {
 
 .wrapper {
@@ -236,6 +251,7 @@ li a:active {
     max-width: 650px;
   }
 }
+
 
 @media screen and (max-width: 640px) {
 .left_content {
