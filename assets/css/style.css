@@ -195,7 +195,7 @@ li a:active {
   border-width: 8px;
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1680px) and (min-width: 1201px) {
   .left_content {
     margin-left: 250px;
     width: 700px;
@@ -225,7 +225,7 @@ li a:active {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 981px) {
   .left_content {
     margin-left: 25px;
     width: 700px;
@@ -236,6 +236,9 @@ li a:active {
   }
   .right_content i {
     margin-left: 15px;
+  }
+  #navigation h1 {
+    margin-left: 25px;
   }
 }
 
