@@ -195,11 +195,40 @@ li a:active {
   border-width: 8px;
 }
 
+@media screen and (max-width: 1680px) {
+  .left_content {
+    margin-left: 250px;
+    width: 700px;
+    padding-bottom: 30px;
+  }
+  .right_content {
+    margin-right: 250px;
+    width: 300px;
+  }
+  .right_content i {
+    margin-left: 10px;
+  }
+  #navigation h1 {
+    margin-left: 250px;
+  }
+  #navigation ul {
+    margin-right: 250px;
+  }
+  .cover, .portfolio_images {
+    margin-left: 35px;
+  }
+  .banner {
+    margin-left: 35px;
+  }
+  .field {
+    max-width: 650px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .left_content {
     margin-left: 25px;
     width: 700px;
-    /*height: 700px;*/
   }
   .right_content {
     margin-right: 25px;
@@ -211,24 +240,22 @@ li a:active {
 }
 
 @media screen and (max-width: 980px) {
-
-.wrapper {
-  width: 100%;
-}
-.left_content {
-  width: 500px;
-  float: left;
-  margin-left: 25px;
-}
-.right_content {
-  margin-right: 15px;
+  .wrapper {
+    width: 100%;
   }
-
-.right_content i {
-  margin-left: 10px;
-}
-.field {
-  max-width: 475px;
+  .left_content {
+    width: 500px;
+    float: left;
+    margin-left: 25px;
+  }
+  .right_content {
+    margin-right: 15px;
+    }
+  .right_content i {
+    margin-left: 10px;
+  }
+  .field {
+    max-width: 475px;
   }
 }
 
@@ -252,25 +279,23 @@ li a:active {
   }
 }
 
-
 @media screen and (max-width: 640px) {
-.left_content {
-  margin-left: 20px;
-  width: 550px;
-  float: none;
-}
-.right_content {
-  margin-left: 20px;
-    /*float: none;*/
+  .left_content {
+    margin-left: 20px;
+    width: 550px;
+    float: none;
+  }
+  .right_content {
+    margin-left: 20px;
     width: 590px;
     height: 250px;
   }
 
-.right_content i {
-  margin-top: 20px;
-  margin-left: 80px;
-}
-.field {
-  max-width: 500px;
-}
+  .right_content i {
+    margin-top: 20px;
+    margin-left: 80px;
+  }
+  .field {
+    max-width: 500px;
+  }
 }
