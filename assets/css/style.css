@@ -1,21 +1,15 @@
 body {
   font-family: 'Georgia', Times, Times New Roman, serif;
-  /*width: 100%;*/
   background: url("../images/use_your_illusion.png");
   background-size: cover repeat;
-}
-.wrapper {
-  /*max-width: 960px;*/
-
 }
 *{
   padding: 0;
   margin: 0;
 }
 .maindiv {
-  /*max-width: 960px;*/
   min-height: 100%;
-  /*margin-bottom: 100px;*/
+  margin-bottom: -100px;
 }
 h2 {
   border-bottom-style: solid;
@@ -28,7 +22,6 @@ h2 {
   display: block;
   float: left;
   margin-top: 25px;
-  /*margin-left: 340px;*/
   border-style: solid;
   border-color: #ddd;
   background-color: white;
@@ -98,7 +91,7 @@ button:hover {
 textarea {
   margin-top: 5px;
   height: 100px;
-  max-height: 160px;
+  max-height: 150px;
   max-width: 600px;
   border-color: #ccc;
   border-style: solid;
@@ -109,9 +102,7 @@ textarea {
   border: solid;
   border-color: #ddd;
   float: right;
-  /*width: 270px;*/
   padding-bottom: 30px;
-  /*margin-right: 325px;*/
   padding: 15px;
 }
 .right_content a {
@@ -122,15 +113,11 @@ textarea {
   color: grey;  
 }
 #navigation {
-  /*position: static;*/
   height:100px;
   background: white;
   line-height: 85px;
   border-bottom-color: thistle;
   border-bottom-style: solid;
-}
-#navigation ul {
-  /*margin-right: 325px;*/
 }
 #navigation ul a {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -151,10 +138,8 @@ textarea {
   margin-top: 10px;
 }
 #navigation h1 {
-  width: 200px;
   background-color: #4aaaa5;
   margin-top: 0px;
-  /*margin-left: 340px;*/
   color: white;
   float: left;
   font-size: 24px;
@@ -210,6 +195,7 @@ li a:active {
   }
   #navigation h1 {
     margin-left: 250px;
+    line-height: 100px;
   }
   #navigation ul {
     margin-right: 250px;
@@ -247,38 +233,76 @@ li a:active {
     width: 100%;
   }
   .left_content {
-    width: 500px;
+    width: 425px;
     float: left;
-    margin-left: 25px;
+    margin-left: 50px;
   }
   .right_content {
-    margin-right: 15px;
+    margin-right: 50px;
     }
   .right_content i {
     margin-left: 10px;
   }
+  #navigation h1 {
+    margin-left: 50px;
+    line-height: 90px;
+  }
+  #navigation ul {
+    margin-right: 35px;
+  }
   .field {
-    max-width: 475px;
+    max-width: 400px;
+  }
+  textarea {
+    min-width: 400px;
+    max-height: 175px;
+    min-height: 125px;
+  }
+  .cover, .portfolio_images {
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+  }
+  .banner {
+    width: 300px;
+    margin-left: 30px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .left_content {
-    width: 675px;
+    float: left;
+    width: 625px;
+    margin-left: 45px;
   }
   .right_content {
-    width: 715px;
-    height: 200px;
     float: left;
-    margin-left: 25px;
+    width: 665px;
+    height: 200px;
+    margin-left: 45px;
     padding: 0;
+    margin-bottom: -150px;
   }
   .right_content i {
     margin-left: 110px;
-  /*align-items: center;*/
+  }
+  .cover, .portfolio_images {
+    width: 275px;
+    height:225px;
+    margin-left: 10px;
+  }
+  .banner {
+    width: 275px;
+    margin-left: 10px;
   }
   .field {
-    max-width: 650px;
+    max-width: 600px;
+  }
+  textarea {
+    min-width: 600px;
+    max-width: 600px;
+    max-height: 175px;
+    min-height: 125px;  
   }
 }
 
@@ -293,12 +317,58 @@ li a:active {
     width: 590px;
     height: 250px;
   }
-
   .right_content i {
     margin-top: 20px;
     margin-left: 80px;
   }
+  .cover, .portfolio_images {
+    width: 400px;
+    height: 350px;
+  }
+  .portfolio_images {
+    border-style: solid;
+    border-color: grey;
+  }
+  .banner {
+    width: 400px;
+    margin-left: 38px;
+  }
   .field {
     max-width: 500px;
+  }
+  textarea {
+    min-width: 500px;
+    max-width: 500px;
+    max-height: 175px;
+    min-height: 125px;  
+  }
+  #menu {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    float: left;
+    line-height: 65px;
+    font-size: 24px;
+  }
+  #menu a {
+    margin: 60px;
+  }
+  #menu li  {
+    padding-top: 10px;
+  }
+  #navigation {
+    margin-bottom: 150px;
+  }
+  #navigation h1 {
+    width: 640px;
+    height: 80px;
+    line-height: 45px;
+    font-size: 28px;
+    margin: 0;
+    padding-top: 45px;
+  }
+  .cover, .portfolio_images {
+    float: none;
+    margin-left: 35px;
   }
 }
